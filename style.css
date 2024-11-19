@@ -1,0 +1,47 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: sans-serif;
+}
+
+body{
+  gap: 20px;
+  width: 100vw;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 1.8em;
+  color: rgba(87, 222, 161, 1);
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+p {
+  width: 80%;
+  text-align: center;
+  font-variant: small-caps;
+  color: rgba(154, 54, 208, 1);
+}
+
+
+img {
+  padding: 5px;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border: 6px solid rgba(87, 222, 161, 1);
+}
+
+ul, ol {
+  margin-inline: 10% auto;
+}
+
+ul li, ol li {
+  
+}
